@@ -46,6 +46,7 @@ export default {
   },
   mounted () {
     //加载天地图
+    //第二次测试
     this.map = new Map({
       target: 'map-div',
       layers: [
