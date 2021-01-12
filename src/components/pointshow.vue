@@ -1,14 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-04 15:22:11
- * @LastEditTime: 2021-01-05 17:22:53
+ * @LastEditTime: 2021-01-11 10:58:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \first\src\components\pointshow.vue
 -->
 <template>
 <div>
-    <div id="map-div" style="width:auto;height:600px;">
+    <div id="map-div" style="width:auto;height:240px;">
               <!-- 弹出窗体 -->
     </div>
             <div id="mouse-position" style="float: left; position: absolute; bottom: 5px; width: 350px; height: 20px; z-index: 2000;">
@@ -41,6 +41,7 @@ import plane from '@/assets/boss_zidan.png'
 import { fromLonLat } from 'ol/proj'
 import MousePosition from 'ol/control/MousePosition'
 export default {
+  name: 'v-show',
   data () {
     return {
       Coordinates: [],
